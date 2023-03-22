@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "project-fods": {
+      "hosting": {
+        "delivery-exec": [
+          "delivery-exec"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "project-fods"
+  }
+}
