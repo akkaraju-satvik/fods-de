@@ -9,4 +9,5 @@ export const environment = {
     messagingSenderId: '474745128496',
   },
   production: false,
+  auth_endpoint: 'http://localhost:3000/v1/auth',
 }
