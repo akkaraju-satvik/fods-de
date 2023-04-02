@@ -10,7 +10,7 @@ import { GeneralService } from '../services/general.service';
 })
 export class NavbarComponent {
   @Input() items!: MenuItem[];
-  user_name = this.authService.authData?.user?.business_name || '';
+  user_name = this.authService.authData?.user?.full_name || '';
   sideMenu: boolean = false;
 
   constructor(public generalService: GeneralService, public authService: AuthService, private primengconfig: PrimeNGConfig) { }
