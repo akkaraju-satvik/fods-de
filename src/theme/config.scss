@@ -1,0 +1,67 @@
+@import './variables.scss';
+
+a {
+  cursor: pointer;
+  text-decoration-color: transparent;
+}
+
+#navbar a {
+  cursor: pointer;
+  text-decoration-color: transparent;
+  &:hover {
+    text-decoration-color: $primary;
+    transition: text-decoration 0.3s ease-in-out;
+  }
+}
+
+.btn-secondary, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary:enabled {
+  background-color: #fff !important;
+  border-radius: 9px;
+  border: 1px solid $secondary !important;
+  color: $secondary !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary:hover, .btn-secondary:active:hover, .btn-secondary:visited:hover, .btn-secondary:focus:hover, .btn-secondary:enabled:hover {
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: $primary !important;
+  border-color: $primary;
+  color: #fff;
+}
+
+.bg-green {
+  background-color: $green !important;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.fadeInFast {
+  animation: fadeInFast 0.5s ease-in-out;
+}
+
+div:has(> div.grecaptcha-badge) {
+  display: none;
+}
+
+@keyframes fadeInFast {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

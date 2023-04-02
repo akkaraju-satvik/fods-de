@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'theme/variables.scss';
+@import 'theme/primeng.scss';
+@import 'theme/config.scss';
+@import 'theme/typography.scss';
+
+body {
+  background-color: rgba($color: #fff, $alpha: 0.95);
+}
+
+.h-90vh {
+  height: 90vh;
+}
