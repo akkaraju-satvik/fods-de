@@ -1,0 +1,16 @@
+.placeholder-card {
+  width: 200px;
+  height: 200px;
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.3s ease;
+  }
+}
+
+.redirect-link {
+  &:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;
+  }
+}
